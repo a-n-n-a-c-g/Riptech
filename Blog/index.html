@@ -118,8 +118,16 @@
                                       <h1>Fishing</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>January 23, 2018 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div> 
+                                    	<span id="date1"></span>
+										<script>
+										var options = {  
+											year: "numeric", month: "long", day: "numeric" 
+										};  
+										var a = new Date();
+										a.setDate(a.getDate() - 2);
+										document.getElementById("date1").innerHTML = a.toLocaleDateString("en-us", options);
+										</script>
+									</div> 
                                     <p>The first time I went fishing, <br>
 									I pulled a crab out of the water <br>
 									And held it close to my face. <br>
@@ -144,9 +152,13 @@
                                       <h1>Whatever It's Called</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>November 5, 2017 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div>  
-                                    <p>I don’t get what the big deal is <br>
+                                    	<span id="date2"></span>
+										<script>
+										var b = new Date();
+										b.setDate(b.getDate() - 40);
+										document.getElementById("date2").innerHTML = b.toLocaleDateString("en-us", options);
+										</script>
+									</div> <p>I don’t get what the big deal is <br>
 									Ya know, it’s just love,<br>
 									A giant abstraction like <br>
 									Freedom with its stars <br>
@@ -177,9 +189,13 @@
                                       <h1>They Just Do</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>October 10, 2017 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div>  
-                                    <p>
+                                    	<span id="date3"></span>
+										<script>
+										var c = new Date();
+										c.setDate(c.getDate() - 67);
+										document.getElementById("date3").innerHTML = c.toLocaleDateString("en-us", options);
+										</script>
+									</div> <p>
 									Mothers will die. <br>
 									It’s a given, a surety,<br> 
 									A stamp on the envelope<br>
@@ -205,8 +221,13 @@
                                       <h1>I've Got Secrets</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>August 17, 2017 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div>  
+                                    	<span id="date4"></span>
+										<script>  
+										var d = new Date();
+										d.setDate(d.getDate() - 123);
+										document.getElementById("date4").innerHTML = d.toLocaleDateString("en-us", options);
+										</script>
+									</div>  
                                     <p>Secret number one: <br>
 									I write poetry, but most think I’m just a computer nerd with <br>
 									The capacity to write at a zero or a negative five. <br>
@@ -235,8 +256,13 @@
                                      <h1>I once saw...</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>June 1, 2017 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div>  
+                                    	<span id="date5"></span>
+										<script> 
+										var e = new Date();
+										e.setDate(e.getDate() - 150);
+										document.getElementById("date5").innerHTML = e.toLocaleDateString("en-us", options);
+										</script>
+									</div> 
 									<p>
 										A child begging for food. <br>
 									You haven’t been among the really <br>
@@ -268,8 +294,13 @@
                                       <h1>Promise</h1>
                                     </div>  
                                     <div class="post-info">
-                                    	<span>April 12, 2017 <!--/ by <a href="#" target="_blank">Alex Parker</a>--></span>
-                                    </div>  
+                                    	<span id="date6"></span>
+										<script> 
+										var f = new Date();
+										f.setDate(f.getDate() - 192);
+										document.getElementById("date6").innerHTML = f.toLocaleDateString("en-us", options);
+										</script>
+									</div>   
 									<p>
 									Now that you think I’m a dreadfully <br>
 									depressed person, <br>
