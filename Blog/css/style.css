@@ -352,10 +352,10 @@ button {
 }
 
 .my-detail span {
-    color: #c1c1c1;
-    font-weight: 400;
-    line-height: 30px;
-    font-size: 16px;
+    color: #000000;
+    /*font-weight: 400;
+    line-height: 30px;*/
+    font-size: 10px;
 }
 
 
@@ -1291,7 +1291,7 @@ blockquote {
     }
 	
     .my-detail span {
-       font-size: 15px;
+       font-size: 10px;
        line-height: 29px;
     }
 	
