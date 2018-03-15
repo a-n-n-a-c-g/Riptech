@@ -344,6 +344,7 @@ button {
 .my-detail .white-spacing {
     padding: 23px 0;
     border-bottom: 1px dashed #cccccc;
+    padding-right: 11rem;
 }
 
 .my-detail h1 {
